@@ -1,4 +1,4 @@
-/* 
+/*
  * Abstract Data Type Declarations -- BINTREE
  * author: ljr
  *

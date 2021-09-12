@@ -1,4 +1,4 @@
-/* 
+/*
  * Abstract Data Type Declarations -- ATOMSET
  * author: ljr
  *

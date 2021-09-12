@@ -1,4 +1,4 @@
-/* 
+/*
  * Abstract Data Type Declarations -- ATOMSET
  * author: ljr
  *
@@ -15,31 +15,31 @@ void make_atoms() {
 
     while this character != '\0' {
         insert new atom in parenthetical
-        
+
         switch (according to the value of the char)
-            case "if digit" 
-                collect all digits
-                atom type if NUMBER
-                the attribute is the numeric
-                value of the string collected
-                by all sequence digits
+        case "if digit"
+            collect all digits
+        atom type if NUMBER
+            the attribute is the numeric
+        value of the string collected
+        by all sequence digits
 
-            case "if "+" or "*""
-                atom type if OP
-                attribute is the character itself
+        case "if "+" or "*""
+            atom type if OP
+            attribute is the character itself
 
-            case "if "(" or ")""
-                atom type if OPAR or CPAR respectively
-                attribute is not necessary
+        case "if "(" or ")""
+        atom type if OPAR or CPAR respectively
+        attribute is not necessary
 
-            case "any other character"
-                atom type is INVAL
-                attribute is the character itself
-        } 
+        case "any other character"
+            atom type is INVAL
+        attribute is the character itself
+    }
 
-        update increasing natoms
-        next non-white-character
-    } 
+    update increasing natoms
+    next non-white-character
+}
 
 }
 

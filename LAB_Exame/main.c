@@ -17,9 +17,9 @@ int main() {
     printf("\nAtoms found in expression: \n");
     print_atoms(parenthetical, natoms);
 
-   // print the polish expression
+    // print the polish expression
     printf("\nPolish expression: \t");
- 
+
     bintree_node tree = make_tree(polishVector, polishSize);
     printf("\nParenthetical expression from binary tree: \t");
     print_parenthetical_expr(tree);
