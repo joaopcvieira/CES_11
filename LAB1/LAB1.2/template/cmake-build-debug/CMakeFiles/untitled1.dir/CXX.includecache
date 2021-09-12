@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joao_vieira/Documents/template/list.cpp
+list.h
+/home/joao_vieira/Documents/template/list.h
+assert.h
+-
+stddef.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/home/joao_vieira/Documents/template/list.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/CES_11.dir/main.cpp.o CMakeFiles/CES_11.dir/Pilha.cpp.o CMakeFiles/CES_11.dir/Fila.cpp.o -o CES_11 

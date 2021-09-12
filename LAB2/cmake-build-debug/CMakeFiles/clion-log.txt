@@ -1,0 +1,21 @@
+/opt/clion-2021.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/joao_vieira/Desktop/CES 11/LAB2"
+CMake Error: Could not find cmake module file: CMakeDetermine2Compiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_2_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_2_COMPILER
+CMake Error: Could not find cmake module file: /home/joao_vieira/Desktop/CES 11/LAB2/cmake-build-debug/CMakeFiles/3.19.2/CMake2Compiler.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_2_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_2_COMPILER to the full path to the compiler, or to the compiler name
+  if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMake2Information.cmake
+CMake Error: CMAKE_2_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "/home/joao_vieira/Desktop/CES 11/LAB2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
