@@ -1,0 +1,23 @@
+
+Atoms found in expression: 
+
+type      | attribute
+----------------------
+INVAL     | ;
+OPAR      |
+OPAR      |
+NUMBER    | 91
+INVAL     | ]
+OP        | +
+NUMBER    | 3
+CPAR      |
+INVAL     | &
+OP        | *
+NUMBER    | 12
+INVAL     | ,
+
+Polish expression: 	 91 3 + 12 *
+
+Parenthetical expression from binary tree: 	((91 + 3) * 12)
+
+The result of evalutation is: 1128

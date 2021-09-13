@@ -7,6 +7,7 @@
 #include "adt_stack.h"
 #include "list.h"
 #include "binTree.h"
+#include "PolishExpr.h"
 
 int main() {
 
@@ -18,10 +19,14 @@ int main() {
     print_atoms(parenthetical, natoms);
 
     // print the polish expression
-    printf("\nPolish expression: \t");
+    printf("\nPolish expression:  ");
 
-    bintree_node tree = make_tree(polishVector, polishSize);
-    printf("\nParenthetical expression from binary tree: \t");
+
+    LIST polishVector = polishTranslate(parenthetical);
+    int polishSize = polishVector.size;
+
+    bintree_node tree = make_tree(&polishVector, polishSize);
+    printf("\nParenthetical expression from binary tree: ");
     print_parenthetical_expr(tree);
 
     printf("\n\nThe result of evalutation is: %d\n", eval_expression(tree));

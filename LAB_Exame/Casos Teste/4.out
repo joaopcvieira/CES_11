@@ -1,0 +1,19 @@
+
+Atoms found in expression: 
+
+type      | attribute
+----------------------
+OPAR      |
+NUMBER    | 2
+OP        | +
+OPAR      |
+NUMBER    | 4
+OP        | *
+NUMBER    | 55
+CPAR      |
+
+Polish expression: 	 2 4 55 * +
+
+Parenthetical expression from binary tree: 	(2 + (4 * 55))
+
+The result of evalutation is: 222

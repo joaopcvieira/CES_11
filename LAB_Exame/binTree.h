@@ -20,13 +20,17 @@ typedef struct cell {
 
 typedef cell_st *bintree_node;
 
+bintree_node bt;
+
 /*
  * Binary Tree Functions
  */
 
-bintree_node make_tree(atom_st*, int);
+bintree_node make_tree(LIST *, int);
 int eval_expression(bintree_node);
 void print_parenthetical_expr(bintree_node);
+bool isInt(char *);
+bintree_node auxMake_tree(bintree_node *,LIST *, int);
 
 // other bintree manipulation functions
 

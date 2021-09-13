@@ -1,0 +1,27 @@
+
+Atoms found in expression: 
+
+type      | attribute
+----------------------
+OPAR      |
+OPAR      |
+OPAR      |
+OPAR      |
+NUMBER    | 27
+OP        | +
+NUMBER    | 2
+CPAR      |
+OP        | *
+NUMBER    | 3
+CPAR      |
+OP        | +
+NUMBER    | 11
+CPAR      |
+OP        | *
+NUMBER    | 2
+
+Polish expression: 	 27 2 + 3 * 11 + 2 *
+
+Parenthetical expression from binary tree: 	((((27 + 2) * 3) + 11) * 2)
+
+The result of evalutation is: 196

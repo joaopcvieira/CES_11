@@ -1,0 +1,39 @@
+
+Atoms found in expression: 
+
+type      | attribute
+----------------------
+OPAR      |
+OPAR      |
+NUMBER    | 1
+OP        | +
+OPAR      |
+OPAR      |
+NUMBER    | 3
+OP        | +
+OPAR      |
+NUMBER    | 45
+OP        | *
+NUMBER    | 2
+CPAR      |
+CPAR      |
+OP        | *
+NUMBER    | 5
+CPAR      |
+CPAR      |
+OP        | *
+OPAR      |
+NUMBER    | 3
+OP        | +
+OPAR      |
+NUMBER    | 7
+OP        | *
+NUMBER    | 2
+CPAR      |
+CPAR      |
+
+Polish expression: 	 1 3 45 2 * + 5 * + 3 7 2 * + *
+
+Parenthetical expression from binary tree: 	((1 + ((3 + (45 * 2)) * 5)) * (3 + (7 * 2)))
+
+The result of evalutation is: 7922
