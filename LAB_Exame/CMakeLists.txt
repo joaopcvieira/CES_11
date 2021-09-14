@@ -12,4 +12,6 @@ add_executable(CES_11
         list.h
         list.c
         atomSet.c
-        atomSet.h PolishExpr.c PolishExpr.h)
+        atomSet.h
+        PolishExpr.c
+        PolishExpr.h)

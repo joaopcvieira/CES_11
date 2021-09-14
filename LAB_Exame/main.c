@@ -1,7 +1,9 @@
-/* 
- * LAB Parenthetical Expression Evaluation
- * main code
- */
+/* ********************************* */
+/* Aluno: João Pedro Couto Vieira */
+/* CES-11: Algoritmos e Estruturas de Dados */
+/* Descrição: . */
+/* ********************************* */
+/* LAB Parenthetical Expression Evaluation main code */
 
 #include "atomSet.h"
 #include "adt_stack.h"
