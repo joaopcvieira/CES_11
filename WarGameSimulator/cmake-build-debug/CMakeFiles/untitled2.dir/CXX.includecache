@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/DeckOperators.cpp
+DeckOperators.h
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/DeckOperators.h
+
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/DeckOperators.h
+cstdlib
+-
+iostream
+-
+
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/GameMode.cpp
+GameMode.h
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/GameMode.h
+
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/GameMode.h
+
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/main.cpp
+iostream
+-
+DeckOperators.h
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/DeckOperators.h
+GameMode.h
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/GameMode.h
+
