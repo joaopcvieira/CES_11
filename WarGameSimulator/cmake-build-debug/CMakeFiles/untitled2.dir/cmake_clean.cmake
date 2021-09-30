@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled2.dir/AdtQueue.cpp.o"
   "CMakeFiles/untitled2.dir/DeckOperators.cpp.o"
   "CMakeFiles/untitled2.dir/GameMode.cpp.o"
   "CMakeFiles/untitled2.dir/main.cpp.o"

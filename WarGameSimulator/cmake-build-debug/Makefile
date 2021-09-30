@@ -142,6 +142,33 @@ untitled2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
 
+AdtQueue.o: AdtQueue.cpp.o
+
+.PHONY : AdtQueue.o
+
+# target to build an object file
+AdtQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/AdtQueue.cpp.o
+.PHONY : AdtQueue.cpp.o
+
+AdtQueue.i: AdtQueue.cpp.i
+
+.PHONY : AdtQueue.i
+
+# target to preprocess a source file
+AdtQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/AdtQueue.cpp.i
+.PHONY : AdtQueue.cpp.i
+
+AdtQueue.s: AdtQueue.cpp.s
+
+.PHONY : AdtQueue.s
+
+# target to generate assembly for a file
+AdtQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/AdtQueue.cpp.s
+.PHONY : AdtQueue.cpp.s
+
 DeckOperators.o: DeckOperators.cpp.o
 
 .PHONY : DeckOperators.o
@@ -232,6 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled2"
+	@echo "... AdtQueue.o"
+	@echo "... AdtQueue.i"
+	@echo "... AdtQueue.s"
 	@echo "... DeckOperators.o"
 	@echo "... DeckOperators.i"
 	@echo "... DeckOperators.s"

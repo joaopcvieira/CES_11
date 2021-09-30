@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/joao_vieira/Desktop/CES_11/WarGameSimulator/AdtQueue.cpp">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="/home/joao_vieira/Desktop/CES_11/WarGameSimulator/AdtQueue.h">
+			<Option target="untitled2"/>
+		</Unit>
 		<Unit filename="/home/joao_vieira/Desktop/CES_11/WarGameSimulator/DeckOperators.cpp">
 			<Option target="untitled2"/>
 		</Unit>
