@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/PolishExpr.h
-atomSet.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/atomSet.h
-adt_stack.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/adt_stack.h
-list.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/list.h
-ctype.h
--
-
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/adt_stack.h
-stdbool.h
--
+/home/joao_vieira/Desktop/CES_11/LAB_Exame/atomSet.c
 atomSet.h
 /home/joao_vieira/Desktop/CES_11/LAB_Exame/atomSet.h
 
@@ -29,28 +17,4 @@ stdlib.h
 -
 ctype.h
 -
-
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/binTree.h
-atomSet.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/atomSet.h
-adt_stack.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/adt_stack.h
-list.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/list.h
-
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/list.h
-atomSet.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/atomSet.h
-
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/main.c
-atomSet.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/atomSet.h
-adt_stack.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/adt_stack.h
-list.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/list.h
-binTree.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/binTree.h
-PolishExpr.h
-/home/joao_vieira/Desktop/CES_11/LAB_Exame/PolishExpr.h
 
