@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/AdtQueue.cpp
+AdtQueue.h
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/AdtQueue.h
+
+/home/joao_vieira/Desktop/CES_11/WarGameSimulator/AdtQueue.h
+cstdlib
+-
+iostream
+-
+
