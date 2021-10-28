@@ -73,6 +73,7 @@ void make_atoms() {
 //    update increasing natoms
         natoms++; //TODO 1: conferir se eh so isso mesmo
         l++;
+        int test = natoms;
 //    next non-white-character
         c = get_non_blank();
     }

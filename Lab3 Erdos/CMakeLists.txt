@@ -10,4 +10,4 @@ add_executable(Lab3_Erdos
         author.h
         graphImplementation.c
         graphImplementation.h
-        main.c)
+        main.c graph.c graph.h list.c list.h)
